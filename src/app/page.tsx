@@ -53,7 +53,7 @@ export default function Home() {
                 </MenubarContent>
               </MenubarMenu>
             </Menubar>
-            <div className='max-sm:block'>
+            <div className='max-sm:block sm:hidden'>
               <MobileNav />
             </div>
 

@@ -49,15 +49,15 @@ export function MobileNav() {
                 <CardDescription>
                 </CardDescription>
               </CardHeader> */}
-              <CardContent className="p-3">
+              <CardContent className="py-3 px-0">
                 <div className="flex items-center justify-around">
                   <Avatar className="mx-2">
                     <AvatarImage src="https://github.com/shadcn.png" />
-                    <AvatarFallback>CN</AvatarFallback>
+                    <AvatarFallback>RB</AvatarFallback>
                   </Avatar>
                   <div className="text-start px-2">
                     <p className="font-bold">Mr. Rahul Badhai</p>
-                    <p>Sr. Software Developer fdkjfdskl</p>
+                    <p>Sr. Software Developer </p>
                   </div>
                 </div>
               </CardContent>
@@ -69,14 +69,14 @@ export function MobileNav() {
             <NavigationMenuList >
               <NavigationMenuItem>
                 <Link href="#" legacyBehavior passHref >
-                  <NavigationMenuLink className={`${navigationMenuTriggerStyle()} min-w-[250px] sm:min-w-80`}>
+                  <NavigationMenuLink  className={`${navigationMenuTriggerStyle()} min-w-[250px] sm:min-w-80`}>
                     Dashboard
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
-          <NavigationMenu>
+          <NavigationMenu className="hover:z-20">
             <NavigationMenuList className="min-w-[250px] sm:min-w-80">
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="min-w-[250px]  sm:min-w-80">UAM</NavigationMenuTrigger>
@@ -92,8 +92,8 @@ export function MobileNav() {
                 </NavigationMenuContent>
               </NavigationMenuItem>
             </NavigationMenuList>
-          </NavigationMenu>
-          <NavigationMenu>
+          </NavigationMenu >
+          <NavigationMenu className="hover:z-20">
             <NavigationMenuList className="min-w-[250px] sm:min-w-80">
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="min-w-[250px]  sm:min-w-80">User</NavigationMenuTrigger>
